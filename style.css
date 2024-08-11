@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body {
+    font-size: 16px;
+    /* 1rem = 16px */
+}
+
+header {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    background-image: url(HeaderBackground.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+header h1 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 2rem;
+    font-weight: 400px;
+    line-height: 42px;
+    text-align: left;
+
+    align-self: center;
+    color: white;
+
+    justify-self: center;
+}
+
+header p {
+    margin-bottom: 20px;
+
+    height: 110px;
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    line-height: 21.79px;
+    text-align: left;
+
+    color: white;
+
+}
+
+header button {
+
+    height: 54px;
+
+    border-radius: 50px;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 21.79px;
+    text-align: center;
+}
+
+.download-button {
+    background-color: white;
+    color: black;
+
+    border: 1px solid black;
+}
+
+.download-button:active {
+    background-color: rgb(207, 202, 202);
+    transition: 0.1s;
+}
+
+.navigator-button {
+    background-color: #343535;
+    color: white;
+
+    border: 1px solid white;
+}
+
+.navigator-button:active {
+    background-color: rgb(36, 36, 36);
+    transition: 0.1s;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.68px;
+
+    padding: 20px 40px;
+
+}
+
+main p {
+    font-family: "Open Sans", sans-serif;
+
+    line-height: 21.79px;
+    text-align: left;
+
+    padding: 20px 40px;
+}
+
+main img {
+    width: 90%;
+    padding: 0px 20px;
+}
+
+.fundo-cor {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #e3e2e2;
+}
+
+.background{
+    background-color: #dcdcdc;
+}
+
+@media screen and (max-width: 767px) {
+    header p {
+        margin-bottom: 20px;
+    
+        height: 110px;
+        font-size: 01rem;
+        font-family: "Open Sans", sans-serif;
+        line-height: 21.79px;
+        text-align: left;
+    
+        color: white;
+    
+    }
+
+    header button {
+        
+        height: 44px;
+    
+        border-radius: 50px;
+    
+        font-family: "Open Sans", sans-serif;
+        font-size: 1rem;
+        line-height: 21.79px;
+        text-align: center;
+    }
+
+    .area-button {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    header h1 {
+        font-size: 3rem;
+        align-self: flex-start;
+    }
+
+    header p {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+
+
+    header button {
+        font-size: 1.4rem;
+
+    }
+
+    main h1 {
+
+        font-size: 2rem;
+        font-weight: 800;
+        line-height: 32.68px;
+
+        padding: 20px 40px;
+
+    }
+
+    main p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.4rem;
+        line-height: 28.79px;
+        text-align: left;
+
+        padding: 20px 40px;
+    }
+
+    header button {
+        padding: 10px 30px;
+        height: 54px;
+
+        border-radius: 50px;
+
+        font-family: "Open Sans", sans-serif;
+        font-size: 1rem;
+        line-height: 21.79px;
+        text-align: center;
+    }
+
+    .area-button {
+        margin-top: -40px;
+
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+    }
+}
+
+@media screen and (min-width:1023px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        background-image: url(HeaderBackground.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    header h1 {
+        font-family: "Luckiest Guy", cursive;
+        font-size: 4rem;
+        font-weight: 400px;
+        line-height: 72px;
+
+        width: 500px;
+
+        align-self: center;
+        color: white;
+
+        margin-bottom: -30px;
+    }
+
+    header p {
+        margin-top: 20px;
+
+        font-size: 1.5rem;
+        font-family: "Open Sans", sans-serif;
+        line-height: 31.79px;
+        text-align: center;
+        align-self: center;
+        width: 1000px;
+
+        color: white;
+
+    }
+
+    header button {
+        padding: 10px 30px;
+        height: 54px;
+
+        border-radius: 50px;
+
+        font-family: "Open Sans", sans-serif;
+        font-size: 1rem;
+        line-height: 21.79px;
+        text-align: center;
+    }
+
+    .area-button {
+        margin-top: -40px;
+
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .download-button {
+        background-color: white;
+        color: black;
+
+        border: 1px solid black;
+    }
+
+    .download-button:active {
+        background-color: rgb(207, 202, 202);
+        transition: 0.1s;
+    }
+
+    .navigator-button {
+        background-color: #343535;
+        color: white;
+
+        border: 1px solid white;
+    }
+
+    .navigator-button:active {
+        background-color: rgb(36, 36, 36);
+        transition: 0.1s;
+    }
+
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    main h1 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 3rem;
+        font-weight: 800;
+        line-height: 50px;
+
+        padding: 20px 40px;
+
+    }
+
+    main p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.3rem;
+        line-height: 40px;
+        text-align: left;
+
+        padding: 20px 40px;
+    }
+
+    main img {
+        width: 90%;
+        padding: 0px 20px;
+    }
+
+    .fundo-cor {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #e3e2e2;
+    }
+
+    .sessao1{
+        display: flex;
+    }
+
+    .laptop{
+        margin: 20px;
+    }
+
+    .ultima-sessao p, h1{
+        text-align: center;
+    }
+
+    .background{
+        background-color: #dcdcdc
+        ;
+    }
+}
+
